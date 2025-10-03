@@ -10,7 +10,7 @@ load_dotenv(".env")
 
 # -------------------- ตั้งค่า Gemini Client --------------------
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])   # สร้าง client เพื่อเรียกใช้ Gemini
-MODEL_ID = "gemini-2.0-flash"                                  # ใช้โมเดล Gemini Flash (เร็ว ประหยัด)
+MODEL_ID = "models/gemini-2.5-flash-lite"                                  # ใช้โมเดล Gemini Flash (เร็ว ประหยัด) models/gemini-2.5-flash-lite
 
 # -------------------- กำหนดคำสั่งระบบให้ AI มีบทบาทเป็นผู้ช่วยร้านอาหาร --------------------
 AI_INSTRUCTION_PROMPT = """
