@@ -3,7 +3,7 @@
 ## LAB3: เชื่อมต่อ LINE เข้ากับ Gemini
 1. ไปยังไดเรกทอรีของโปรเจกต์:
    ```bash
-   cd 4_gemini-x-line
+   cd 3_gemini-x-line
    ```
 
 2. ติดตั้ง dependency ที่จำเป็น:

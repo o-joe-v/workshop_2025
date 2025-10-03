@@ -40,6 +40,7 @@ ENV/
 .env.local
 .env.*.local
 *.env
+3_gemini-x-line/.env
 
 # Logs
 *.log
